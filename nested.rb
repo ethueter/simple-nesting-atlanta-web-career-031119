@@ -64,7 +64,7 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
-require pry 
+ 
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -81,8 +81,7 @@ require pry
         }
      }
   programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
-  binding.pry 
-  programmer_hash[:yukihiro_matsumoto]
+  programmer_hash
 end
 
 def changing_alan
