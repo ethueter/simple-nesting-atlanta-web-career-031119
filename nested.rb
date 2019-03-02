@@ -123,6 +123,9 @@ def adding_to_dennis
         }
      }
      answer = []
-     answerprogrammer_hash[:dennis_ritchie][:languages] 
+     answer.push(programmer_hash[:dennis_ritchie][:languages])
+     answer.push("Assembly")
+     programmer_hash[:dennis_ritchie][:languages] = answer
+     programmer_hash
 
 end
